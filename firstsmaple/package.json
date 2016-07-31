@@ -1,0 +1,31 @@
+{
+  "name": "lession_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --profile --progress --color",
+    "build": "webpack --progress --profile --color"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.22.0",
+    "postcss-loader": "^0.9.1",
+    "style-loader": "^0.13.1"
+  }
+}
