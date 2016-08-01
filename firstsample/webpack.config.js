@@ -30,12 +30,6 @@ var webpackConfig={
     module: {
         loaders: [
             {
-                test:/\.css$/,
-                loader:['style','css','postcss']
-            },{
-                test:/\.styl$/,
-                loader:['style','css','postcss','stylus']
-            },{
                 test:/\.jsx?$/,
                 include:APP_PATH,
                 loader:['babel'],
